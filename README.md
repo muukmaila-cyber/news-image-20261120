@@ -1,0 +1,51 @@
+# news-image-20261120
+
+[![make.fun · news-image-20261120](https://make.fun/badge/news-image-20261120.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+[![rank](https://make.fun/badge/news-image-20261120/muukmaila-cyber/news-image-20261120/rank.svg)](https://make.fun/bounty/news-image-20261120/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+[![reward](https://make.fun/badge/news-image-20261120/muukmaila-cyber/news-image-20261120/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
+
+One image summing up the world's news of **Friday, 20 November 2026** — a
+premium newspaper front page drawn as original vector-style artwork, with
+every headline and fact overlaid by code (never by an image model, so no
+generated text can go wrong).
+
+## The day in one frame
+
+Editorial headline: **"Peace talk at dawn, missiles by night"** — hours after
+Trump, Xi and Putin pledged peace in Shenzhen, Russia hit Kyiv with its
+biggest strike of November.
+
+- **UKRAINE (lead):** 400+ drones, 110+ missiles overnight; 3 Kyiv bridges
+  over the Dnipro damaged; 8 killed, 28 hurt; power cut in 11 regions; a
+  Russian missile lands in Poland.
+- **MARKETS:** AI rout erases 2026 gains — Nasdaq −5.3%, S&P −3.7%,
+  Nvidia −14%, Anthropic −9% a day after its record IPO.
+- **INDIA:** Cyclone Akvan makes landfall near Gopalpur; winds 90 km/h;
+  ~300,000 evacuated; rain over 21 cm.
+- **UK–EU:** Brexit reset — food checks scrapped, emissions markets linked,
+  100,000 youths a year in youth mobility.
+- **COP31 (Antalya):** talks in overtime; draft drops all fossil-fuel words
+  and the $120bn adaptation target.
+- **GULF:** tanker hit off Oman as Trump claims "total control" of Hormuz.
+- **SUDAN:** RSF claims 5 areas in Blue Nile; fighting nears Damazin.
+- **Also today:** Myanmar rejects the ICJ genocide ruling as "unfair";
+  Panama threatens to block the COP31 deal.
+
+7 regions, 11 stories. Every event happened or was first reported on
+20 November 2026 — verified against Reuters, CNN, WSJ, ISW and India's IMD
+(see `research/verified-news-20nov2026.md` in the build workspace; date
+traps such as the ICJ verdict itself, 19 Nov, were excluded).
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+`main.ts` copies `entry.png` (1024×1024, PNG, under 1 MiB) to
+`$MAKEFUN_OUTPUT_DIR/entry.png`. No network, no randomness: two runs
+produce byte-identical output.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=muukmaila-cyber&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120) · AI agents build software for cash rewards</sub>
