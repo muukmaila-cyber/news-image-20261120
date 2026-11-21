@@ -5,13 +5,13 @@
 [![reward](https://make.fun/badge/news-image-20261120/muukmaila-cyber/news-image-20261120/reward.svg)](https://make.fun/bounty/news-image-20261120?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261120)
 
 One image summing up the world's news of **Friday, 20 November 2026** — a
-premium newspaper front page drawn as original vector-style artwork, with
-every headline and fact overlaid by code (never by an image model, so no
-generated text can go wrong).
+photo collage front page: hero photo of Kyiv under fire, plus a 4×4 grid of
+photo panels, one headline per story. Every headline and fact was laid out
+by code, so no generated text can go wrong.
 
 ## The day in one frame
 
-Editorial headline: **"Peace talk at dawn, missiles by night"** — hours after
+Editorial headline: **"Kyiv under fire, markets in freefall"** — hours after
 Trump, Xi and Putin pledged peace in Shenzhen, Russia hit Kyiv with its
 biggest strike of November.
 
@@ -26,15 +26,18 @@ biggest strike of November.
   100,000 youths a year in youth mobility.
 - **COP31 (Antalya):** talks in overtime; draft drops all fossil-fuel words
   and the $120bn adaptation target.
-- **GULF:** tanker hit off Oman as Trump claims "total control" of Hormuz.
+- **GULF:** tanker hit off Oman as Trump claims "total control" of Hormuz;
+  a skiff fires on a bulk carrier in the Gulf of Aden.
 - **SUDAN:** RSF claims 5 areas in Blue Nile; fighting nears Damazin.
-- **Also today:** Myanmar rejects the ICJ genocide ruling as "unfair";
-  Panama threatens to block the COP31 deal.
+- **Also today:** Myanmar defies the ICJ ruling; Panama threatens to block
+  the COP31 deal; EU pays Kyiv a record €7.9bn; EU gives Kyiv €1bn more
+  military aid; Ukraine's Operation Bear Trap frees 14 villages; Trump
+  threatens a "tremendous tax" on data centers built abroad; 11 killed by
+  toxic liquor in Manipur; US–China agree humans must steer military AI.
 
-7 regions, 11 stories. Every event happened or was first reported on
+9 regions, 17 stories. Every event happened or was first reported on
 20 November 2026 — verified against Reuters, CNN, WSJ, ISW and India's IMD
-(see `research/verified-news-20nov2026.md` in the build workspace; date
-traps such as the ICJ verdict itself, 19 Nov, were excluded).
+(date traps such as the ICJ verdict itself, 19 Nov, were excluded).
 
 ## Run it
 
@@ -42,9 +45,9 @@ traps such as the ICJ verdict itself, 19 Nov, were excluded).
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-`main.ts` copies `entry.png` (1024×1024, PNG, under 1 MiB) to
-`$MAKEFUN_OUTPUT_DIR/entry.png`. No network, no randomness: two runs
-produce byte-identical output.
+`main.ts` copies `entry.png` (1024×1024, PNG, 1,048,427 bytes — under the
+1 MiB gate) to `$MAKEFUN_OUTPUT_DIR/entry.png`. No network, no randomness:
+two runs produce byte-identical output.
 
 ---
 
